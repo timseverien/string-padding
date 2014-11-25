@@ -18,9 +18,11 @@ Padding strings in [node](http://nodejs.org/).
 
 For those who are totally fine with prototyping strings, you can do that. If you do, you can skip the first parameter.
 
-    var pad = require('string-padding');
-    String.prototype.pad = pad.prototype;
-    
-    'Hello World!'.pad(16, '0'); // 0000Hello World!
+```javascript
+var pad = require('string-padding');
+String.prototype.pad = pad.prototype;
+
+'Hello World!'.pad(16, '0'); // 0000Hello World!
+```
 
 Happy padding! :)
