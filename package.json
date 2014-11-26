@@ -1,6 +1,6 @@
 {
   "name": "string-padding",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Pad strings/text",
   
   "main": "index.js",
